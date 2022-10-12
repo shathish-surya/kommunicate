@@ -1,7 +1,7 @@
 <?php
 require 'phpmailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
-$mail->isSMTP();
+//$mail->isSMTP();
 $mail->Host='smtp.zoho.com';
 $mail->Port=465;
 $mail->SMTPAuth=true;
